@@ -5,7 +5,7 @@
 
 ```js
 const fs = require("fs");
-const promisify = require("./index");
+const promisify = require("simple-node-promisify");
 
 const read = promisify(fs.readFile);
 
