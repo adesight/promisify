@@ -1,0 +1,13 @@
+{
+  "name": "simple-promisify",
+  "version": "0.01",
+  "main": "index.js",
+  "author": "isLishude <lishude@aliyun.com>",
+  "license": "MIT",
+  "description": "simple Node functions to Promise",
+  "repository": "git@github.com:isLishude/promisify.git",
+  "scripts": {
+    "pub": "git push && git push --tags && npm publish",
+    "test": "node ./test.js"
+  }
+}
