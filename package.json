@@ -1,6 +1,6 @@
 {
   "name": "simple-node-promisify",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "main": "index.js",
   "author": "isLishude <lishude@aliyun.com>",
   "license": "MIT",
