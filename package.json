@@ -7,7 +7,11 @@
   "description": "simple Node functions to Promise",
   "repository": "git@github.com:isLishude/promisify.git",
   "scripts": {
-    "pub": "git push && git push --tags && npm publish",
-    "test": "node ./test.js"
+    "prepublish": "git push && git push --tags",
+    "test": "node ./test.js",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^2.6.2"
   }
 }

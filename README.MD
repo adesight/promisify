@@ -1,5 +1,5 @@
 ## Promisify
-将 nodeCallback Promise 化
+nodeCallback Promise,deprecated in favor of util.promisify
 
 ## Example
 
