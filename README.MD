@@ -1,5 +1,5 @@
 ## Deprecated
-in favor of util.promisify instead of
+in favor of util.promisify
 
 ## Example
 
