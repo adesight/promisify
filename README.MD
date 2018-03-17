@@ -1,11 +1,11 @@
-## Promisify
-nodeCallback Promise,deprecated in favor of util.promisify
+## Deprecated
+in favor of util.promisify instead of
 
 ## Example
 
 ```js
 const fs = require("fs");
-const promisify = require("simple-node-promisify");
+const promisify = require("./index.js");
 
 const read = promisify(fs.readFile);
 
@@ -14,5 +14,13 @@ read("./hello.txt", "utf8")
   .catch(console.log);
 ```
 
+```js
+const { promisify } = require("util");
+const { readFile } = require("fs");
+
+read("./hello.txt", "utf8")
+  .then(res => console.assert(res === "Hello,Promise!", "test fail!"))
+  .catch(console.log);
+```
 ## License
 MIT
